@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;study.jsp.helper&apos; to &apos;04-HTTP_POST/src&apos;&#x0D;&#x0A;- Original project: &apos;03-HTTP_GET&apos;&#x0D;&#x0A;- Destination element: &apos;04-HTTP_POST/src&apos;&#x0D;&#x0A;- Original element: &apos;03-HTTP_GET/src/study.jsp.helper&apos;" description="Copy package" destination="=04-HTTP_POST/src" element1="/src&lt;study.jsp.helper" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1423818428256" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_item">
+        <item >다이얼러표시</item>
+        <item >전화걸기</item>
+        <item >문자보내기</item>
+        <item >이메일보내기</item>
+        <item >웹페이지보이기</item>
+        <item >구글검색</item>
+        <item >특정APP설치페이지보이기</item>
+        <item >동영상재생</item>
+        <item >MP3재생</item>
+        <item >시스템환경설정보이기</item>
+        <item >GPS설정</item>
+        <item >Wifi설정</item>
+    </string-array>
+    
+</resources>

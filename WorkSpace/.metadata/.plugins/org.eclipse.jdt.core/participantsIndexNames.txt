@@ -1,0 +1,15 @@
+INDEX VERSION 1.127
+D:\WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1784999759.index
+\04-HTTPPost\src
+D:\WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2717287973.index
+\03-HTTPGet\src
+D:\WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2773409097.index
+\02-UseJAVA\src
+D:\WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\379266414.index
+\03-HTTP_GET\src
+D:\WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2866063310.index
+\02-UsingJava\src
+D:\WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4277460296.index
+\01-HellowJAVA\src
+D:\WorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2341050138.index
+\01-HelloJSP\src

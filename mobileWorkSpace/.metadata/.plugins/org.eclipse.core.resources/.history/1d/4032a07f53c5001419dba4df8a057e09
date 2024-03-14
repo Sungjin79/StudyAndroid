@@ -1,0 +1,63 @@
+package study.android.button;
+
+import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.TextView;
+
+
+public class MainActivity extends ActionBarActivity implements OnClickListener {
+
+    //1.컴포넌트 객체선언
+	TextView textview1;
+	Button button1,button2;
+	ImageButton imagebutton1,imagebutton2;
+	
+	
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        //1)layout.activity_main create
+        //2)객체선언한 것 불러오기
+        button1.setOnClickListener(this);
+        button2.setOnClickListener(this);
+        imagebutton1.setOnClickListener(this);
+        imagebutton2.setOnClickListener(this);
+        
+    }
+
+
+	@Override
+	public void onClick(View arg0) {
+		//파라미터id값 추출
+		int id = arg0.getId();
+		String message = null;
+		
+		switch (id) {
+		case R.id.button1:
+			
+			break;
+        case R.id.button2:
+			
+			break;
+        case R.id.imagebutton1:
+			
+
+		default:
+			break;
+		}
+		
+		
+		
+	}
+
+    
+    
+
+}

@@ -1,0 +1,41 @@
+package study.jsp.helper;
+
+import java.io.UnsupportedEncodingException;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.catalina.connector.Request;
+
+public class WebHelper {
+	
+	/*request 내장객체의 참조*/
+	private HttpServletRequest request;
+	
+	/*싱글톤객체시작*/
+	private static WebHelper current;
+	
+	/*싱글톤 객체를 생성하여 리턴한다*/
+	public static WebHelper getInstance(HttpServletRequest request){
+		try{
+			request.setCharacterEncoding("UTF-8");
+		}catch(UnsupportedEncodingException e){
+			e.printStackTrace();
+		}
+
+		
+		if(current==null){
+			current = new WebHelper();
+		}
+		
+		return current;
+	}
+	/*싱글톤 객체를 삭제한다.*/
+	public static void freeInstance(){
+		current=null;
+	}
+	
+	private WebHelper(){
+		
+	}
+	
+}

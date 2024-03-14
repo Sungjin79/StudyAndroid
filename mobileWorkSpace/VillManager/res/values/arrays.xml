@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- carrier selections -->
+    <string-array name="select_house">
+        <item>유진빌</item>
+        <item>우창빌</item>
+    </string-array>
+
+</resources>

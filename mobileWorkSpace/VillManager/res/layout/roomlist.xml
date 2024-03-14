@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/selecthouse"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:entries="@array/select_house"
+        android:prompt="@string/select_text" />
+    
+    <ListView
+        android:id="@+id/roomlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFFFFF" >
+
+    </ListView>
+
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|bottom"
+        android:text="^^/James Project"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#FFFF48" />
+
+</LinearLayout>

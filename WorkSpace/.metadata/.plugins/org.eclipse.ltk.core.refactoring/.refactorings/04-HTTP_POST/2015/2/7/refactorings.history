@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;04-HTTP_POST&apos;&#x0D;&#x0A;- Original project: &apos;04-HTTP_POST&apos;&#x0D;&#x0A;- Original element: &apos;04-HTTP_POST/src/study.jsp.usingjava.model&apos;" description="Delete element" element1="/src&lt;study.jsp.usingjava.model" element2="/src&lt;study.jsp.usingjava" element3="/src&lt;study.jsp" element4="/src&lt;study" elements="4" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1423818424200" subPackages="false" version="1.0"/>
+</session>
